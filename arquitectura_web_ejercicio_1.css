@@ -1,0 +1,107 @@
+/* === Estilos generales === */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* === Encabezado === */
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* === Navegación === */
+nav {
+  background-color: #023e8a;
+  text-align: center;
+  padding: 0.6rem;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: #caf0f8;
+}
+
+/* === Secciones === */
+section {
+  max-width: 900px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+h2 {
+  border-bottom: 2px solid #0077b6;
+  padding-bottom: 5px;
+  margin-bottom: 1rem;
+  color: #023e8a;
+}
+
+/* === Listas === */
+.cv ul, .hobbies ul {
+  list-style-type: square;
+  margin-left: 25px;
+  margin-bottom: 20px;
+}
+
+.cv li strong {
+  color: #0077b6;
+}
+
+/* === Contacto === */
+.contacto a {
+  color: #0077b6;
+  text-decoration: none;
+}
+
+.contacto a:hover {
+  text-decoration: underline;
+}
+
+/* === Pie de página === */
+footer {
+  background-color: #03045e;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+}
+
+/* === Ajustes responsivos === */
+@media (max-width: 600px) {
+  header h1 {
+    font-size: 2rem;
+  }
+
+  nav a {
+    display: block;
+    margin: 8px 0;
+  }
+
+  section {
+    padding: 1rem;
+  }
+}
